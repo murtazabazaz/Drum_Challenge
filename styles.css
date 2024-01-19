@@ -17,31 +17,31 @@ footer {
 }
 
 .w {
-   
+   background-image: url(images/tom1.png);
 }
 
 .a {
-
+  background-image: url(images/tom2.png);
 }
 
 .s {
-
+  background-image: url(images/tom3.png);
 }
 
 .d {
-
+  background-image: url(images/tom4.png);
 }
 
 .j {
-
+  background-image: url(images/snare.png);
 }
 
 .k {
-
+  background-image: url(images/crash.png);
 }
 
 .l {
-
+  background-image: url(images/kick.png);
 }
 
 .set {
@@ -83,9 +83,7 @@ footer {
 /*Code for nav bar.*/
 
 
-
-/* Header */
-/* header {
+header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -102,4 +100,18 @@ header li {
   list-style: none;
   display: inline-block;
   padding: 0 20px;
-} */
+}
+
+header a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+  color: #214274;
+}
+.container{
+padding: 15px;
+font-family: Arial, Helvetica;
+}
